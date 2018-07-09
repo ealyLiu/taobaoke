@@ -1,0 +1,54 @@
+@charset "UTF-8";
+/**
+ * 
+ * @authors ex-lixiaojian002 (EX-LIXIAOJIAN002@pingan.com.cn)
+ * @date    2015-02-11 08:43:54
+ * @version $Id$
+ */
+html,body,div,ul,ol,li,dd,dt,dl,p,h3,h4,span,input,textarea,select,option,table,tr,td,header,footer,section{padding:0;margin:0;box-sizing:border-box;-o-box-sizing:border-box;-ms-box-sizing:border-box;-moz-box-sizing:border-box;-webkit-box-sizing:border-box;}
+h1,h2,h3,h4,h5,h6{margin: 0;padding: 0;-webkit-tap-highlight-color: rgba(0,0,0,0);}
+body{font-family:'Microsoft YaHei';width:100%;height:100%;min-width:320px;color:#666;-moz-text-size-adjust:none;-webkit-text-size-adjust:none;text-size-adjust:none;font-size: 14px;} img{border:none;} ul,li{list-style-type:none;}
+input{outline: none;}
+a{text-decoration:none; color:#000;}
+.clear{display: block;overflow: hidden;clear: both;height: 0;line-height: 0;font-size: 0;} 
+.clearfix:after{content:".";display:block;height:0;clear:both;visibility:hidden;}
+.fl{float:left; display:block;}
+.fr{float:right; display:block;}
+.hide{display:none;}
+.table {display:table;width: 100%;}
+.t_cell {display:table-cell;vertical-align: middle;}
+.t_row{display: table-row;}
+
+@media screen and (min-width:300px){html,body,input{font-size:15px}}
+@media screen and (min-width:320px){html,body,input{font-size:16px}}
+@media screen and (min-width:340px){html,body,input{font-size:17px}}
+@media screen and (min-width:360px){html,body,input{font-size:18px}}
+@media screen and (min-width:375px){html,body,input{font-size:18.75px}}
+@media screen and (min-width:380px){html,body,input{font-size:19px}}
+@media screen and (min-width:400px){html,body,input{font-size:20px}}
+@media screen and (min-width:414px){html,body,input{font-size:20.7px}}
+@media screen and (min-width:420px){html,body,input{font-size:21px}}
+@media screen and (min-width:440px){html,body,input{font-size:22px}}
+@media screen and (min-width:460px){html,body,input{font-size:23px}}
+@media screen and (min-width:480px){html,body,input{font-size:24px}}
+@media screen and (min-width:500px){html,body,input{font-size:25px}}
+@media screen and (min-width:520px){html,body,input{font-size:26px}}
+@media screen and (min-width:540px){html,body,input{font-size:27px}}
+@media screen and (min-width:560px){html,body,input{font-size:28px}}
+@media screen and (min-width:580px){html,body,input{font-size:29px}}
+@media screen and (min-width:600px){html,body,input{font-size:30px}}
+@media screen and (min-width:620px){html,body,input{font-size:31px}}
+@media screen and (min-width:640px){html,body,input{font-size:32px}}
+@media screen and (min-width:660px){html,body,input{font-size:33px}}
+@media screen and (min-width:680px){html,body,input{font-size:34px}}
+@media screen and (min-width:700px){html,body,input{font-size:35px}}
+@media screen and (min-width:720px){html,body,input{font-size:36px}}
+@media screen and (min-width:740px){html,body,input{font-size:37px}}
+@media screen and (min-width:760px){html,body,input{font-size:38px}}
+@media screen and (min-width:780px){html,body,input{font-size:39px}}
+@media screen and (min-width:800px){html,body,input{font-size:40px}}
+@media screen and (min-width:1024px){html,body,input{font-size:51.2px}}
+@media screen and (min-width:1280px){html,body,input{font-size:64px}}
+@media screen and (min-width:1349px){html,body,input{font-size:67.45px}}
+@media screen and (min-width:1440px){html,body,input{font-size:72px}}
+@media screen and (min-width:1920px){html,body,input{font-size:96px}}
