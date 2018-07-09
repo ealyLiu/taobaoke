@@ -53,10 +53,10 @@ export default {
   },
   methods:{
     getData(type){
-      let women_dress = "/taobaoke/static/goods.json",
-          mother_baby = "/taobaoke/static/mother-baby.json",
-          electric = "/taobaoke/static/electric.json",
-          food = "/taobaoke/static/foods.json",
+      let women_dress = "/static/goods.json",
+          mother_baby = "/static/mother-baby.json",
+          electric = "/static/electric.json",
+          food = "/static/foods.json",
           _type = women_dress,
           oType = type || "",
           _this = this;

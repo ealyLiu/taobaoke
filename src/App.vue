@@ -1,7 +1,7 @@
 <template>
   <div id="app">
     <mt-header fixed title="淘宝客">
-      <router-link to="/taobaoke" slot="left" v-show="backTrue">
+      <router-link to="/" slot="left" v-show="backTrue">
         <mt-button icon="back">返回</mt-button>
       </router-link>
     </mt-header>

@@ -10,17 +10,17 @@ export default new Router({
 	mode:"history",
   routes: [
     {
-      path: '/taobaoke',
+      path: '/',
       name: 'root',
       component: goodsList
     },
     {
-    	path:'/taobaoke/goods-detail/:taoLink&imgSrc=:imgSrc&goodsName=:goodsName&goodsPrice=:goodsPrice',
+    	path:'/goods-detail/:taoLink&imgSrc=:imgSrc&goodsName=:goodsName&goodsPrice=:goodsPrice',
     	name:'goods-detail',
     	component:goodsDetail
     },
     {
-      path:'/taobaoke/search-goods/:searchKeyword',
+      path:'/search-goods/:searchKeyword',
       name:'search-goods',
       component:searchGoods
     }
